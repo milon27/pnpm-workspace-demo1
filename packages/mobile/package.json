@@ -1,0 +1,13 @@
+{
+  "name": "@demo1/mobile",
+  "version": "1.0.0",
+  "description": "mobile app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@demo1/shared": "workspace:*"
+  }
+}

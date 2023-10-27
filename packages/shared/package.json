@@ -1,0 +1,8 @@
+{
+  "name": "@demo1/shared",
+  "version": "1.0.0",
+  "description": "shared code",
+  "main": "index.js",
+  "scripts": {},
+  "type": "module"
+}

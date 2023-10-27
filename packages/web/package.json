@@ -1,0 +1,14 @@
+{
+  "name": "@demo1/web",
+  "version": "1.0.0",
+  "description": "web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@demo1/shared": "workspace:*"
+  },
+  "how-to-install": "pnpm add @demo1/shared@workspace:*"
+}

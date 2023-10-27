@@ -1,0 +1,19 @@
+lockfileVersion: '6.0'
+
+importers:
+
+  .: {}
+
+  packages/mobile:
+    dependencies:
+      '@demo1/shared':
+        specifier: workspace:*
+        version: link:../shared
+
+  packages/shared: {}
+
+  packages/web:
+    dependencies:
+      '@demo1/shared':
+        specifier: workspace:^
+        version: link:../shared

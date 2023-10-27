@@ -1,0 +1,13 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "root package.json file",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm run -r start",
+    "web:start": "pnpm run -F @demo1/web start",
+    "mobile:start": "pnpm run -F @demo1/mobile start"
+  },
+  "author": "milon27",
+  "license": "ISC"
+}
