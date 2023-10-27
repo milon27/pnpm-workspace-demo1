@@ -9,6 +9,5 @@
   "type": "module",
   "dependencies": {
     "@demo1/shared": "workspace:*"
-  },
-  "how-to-install": "pnpm add @demo1/shared@workspace:*"
+  }
 }

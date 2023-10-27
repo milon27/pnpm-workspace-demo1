@@ -6,7 +6,13 @@
   "scripts": {
     "start": "pnpm run -r start",
     "web:start": "pnpm run -F @demo1/web start",
-    "mobile:start": "pnpm run -F @demo1/mobile start"
+    "mobile:start": "pnpm run -F @demo1/mobile start",
+    "all:update": "pnpm -r update -i -L",
+    "all:clean": "find ./ -name node_modules -type d -exec rm -rf {} +"
+  },
+  "engines": {
+    "node": ">=18.16.0",
+    "pnpm": ">=8.5.0"
   },
   "author": "milon27",
   "license": "ISC"

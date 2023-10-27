@@ -1,5 +1,7 @@
+import { format } from "date-fns";
+
 export const DateUtil = {
   getOnlyDate: (date) => {
-    return date.toISOString();
+    return format(date, "dd-MMM-yyyy");
   },
 };
